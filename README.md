@@ -1,219 +1,225 @@
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=151A19&height=175&section=header&text=NEERJHOR.&fontSize=58&fontColor=91C77C&fontAlignY=42&desc=ENGINEERING%20INTELLIGENCE%20INTO%20BUSINESS&descSize=13&descAlignY=72&descColor=E5E9E3" width="100%" alt="Neerjhor — Engineering Intelligence into Business" />
+# NEERJHOR MEHBUBUL MUKADDEM AKASH
 
-### AI & BUSINESS ANALYTICS · MACHINE LEARNING · INTELLIGENT MANUFACTURING
+### AI × Business Analytics × Intelligent Operations
 
-*I connect engineering problems with data, optimization, and intelligent
-systems.*
+**Bridging engineering, artificial intelligence, and business intelligence to transform data into meaningful decisions.**
 
-<br/>
+<p>
+  <a href="https://github.com/Neerjhor09">
+    <img src="https://img.shields.io/badge/GitHub-Neerjhor09-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile">
+  </a>
+  <a href="https://www.linkedin.com/in/mehbubulneerjhor/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <img src="https://img.shields.io/badge/Location-South%20Korea-2563EB?style=for-the-badge&logo=googlemaps&logoColor=white" alt="South Korea">
+</p>
 
-<a href="https://www.linkedin.com/in/mehbubulneerjhor/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-91C77C?style=flat-square&logo=linkedin&logoColor=151A19" alt="LinkedIn" />
-</a> <a href="https://github.com/Neerjhor09">
-<img src="https://img.shields.io/badge/GitHub-Explore%20my%20work-91C77C?style=flat-square&logo=github&logoColor=151A19" alt="GitHub" />
-</a>
-
-<br/><br/>
-
-[ABOUT](#about) · [PROJECTS](#selected-work) ·
-[TOOLKIT](#technical-toolkit) · [EDUCATION](#education) ·
-[RESEARCH](#research-directions)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1100&color=38BDF8&center=true&vCenter=true&width=780&height=55&lines=AI-powered+decision+support;Business+and+operations+analytics;Intelligent+manufacturing+systems;From+industrial+problems+to+data-driven+solutions" alt="Animated professional introduction">
 
 </div>
 
-------------------------------------------------------------------------
+---
 
-## 01 / ABOUT
+## PROFILE
 
-Hi, I’m **Akash (Neerjhor)** — a Big Data & AI Management master’s
-student at **Sejong University, South Korea**, with a foundation in
-**Textile Engineering and Industrial & Production Engineering**.
+I am a **Big Data & AI Management master's student at Sejong University, South Korea**, with an undergraduate foundation in **Textile Engineering and Industrial & Production Engineering** from Bangladesh University of Textiles (BUTEX).
 
-My work sits at the intersection of:
+My work sits at the intersection of **artificial intelligence, business analytics, industrial engineering, and intelligent operations**. I enjoy translating practical business and manufacturing challenges into data problems, developing analytical or machine-learning approaches, and communicating results in ways that support better decisions.
 
-- **Artificial Intelligence & Machine Learning** — building and
-  evaluating models for practical problems.
-- **Business & Operations Analytics** — turning data into forecasting,
-  optimization, and better decisions.
-- **Intelligent Manufacturing** — applying digital technologies to
-  production, quality, and resource planning.
-- **IoT & Embedded Systems** — connecting physical environments to
-  data-driven applications.
+Rather than approaching AI as an isolated technical discipline, I am interested in how intelligent systems can improve planning, quality, resilience, and operational performance in real-world organizations.
 
-I am especially interested in how intelligent systems can improve the
-way businesses and industries operate.
+> **Engineering foundation → AI & analytics specialization → Intelligent business solutions**
 
-> **My working principle:** Start with a real problem. Build a
-> measurable model. Validate it honestly. Explain the impact.
+**Currently exploring:** agentic AI, decision-support systems, predictive and prescriptive analytics, and AI-enabled supply-chain and manufacturing operations.
 
-## 02 / SELECTED WORK
+## AT A GLANCE
 
-A selection of projects that reflect my path from industrial engineering
-to intelligent, data-driven systems.
+| Focus | Details |
+|---|---|
+| Current program | M.S. in Big Data & AI Management — Sejong University |
+| Undergraduate foundation | Textile Engineering + Industrial & Production Engineering — BUTEX |
+| Technical focus | Python, machine learning, computer vision, IoT, data analytics |
+| Application domains | Manufacturing, supply chains, inventory, industrial quality |
+| Research direction | Agentic AI and intelligent decision support for business operations |
+| Based in | South Korea |
 
-### 01. QLoom — Quantum-Enhanced Production Scheduling
+## TECHNOLOGY TOOLKIT
 
-**Energy-aware scheduling for smart textile manufacturing**
+I use tools according to the problem being investigated. The icons below represent technologies I have worked with; they are not intended as a claim of equal proficiency across every tool.
 
-A reproducible hybrid quantum–classical optimization proof of concept.
-Models textile batch scheduling as a constrained assignment problem,
-maps it to QUBO / Ising form, and explores QAOA using Qiskit.
-
-- Benchmarks QAOA against FIFO, EDD, brute force, OR-Tools CP-SAT, and
-  an exact eigensolver.
-- Includes depth, random-seed stability, scaling, tariff-volatility, and
-  tardiness-penalty experiments.
-- Explicitly documents limitations: small simulated instances, no
-  quantum hardware, and no demonstrated quantum advantage.
-
-`Python` `Qiskit` `QAOA` `QUBO` `OR-Tools` `Optimization`
-
-[**Explore QLoom →**](https://github.com/Neerjhor09/QLoom)
-
-### 02. Threadline — Garment Demand & Capacity Intelligence
-
-**Demand forecasting + workforce / capacity optimization**
-
-An analytics project for garment manufacturing that combines demand
-forecasting with mixed-integer linear programming (MILP) capacity
-planning.
-
-- Uses walk-forward backtesting to evaluate forecasting and planning
-  decisions.
-- Reports approximately 72% cost savings against historical staffing in
-  the project’s backtest; this is a modelled result, not a claim of live
-  factory deployment.
-- Includes visual analysis of demand, model comparison, backlog, worker
-  allocation, and scenario sensitivity.
-
-`Python` `Forecasting` `MILP` `Operations Research`
-`Manufacturing Analytics`
-
-[**Explore Threadline →**](https://github.com/Neerjhor09/Threadline)
-
-### 03. SPSE Sentinel — Leak-Free Financial ML
-
-**Five-day forward return prediction and portfolio backtesting**
-
-An end-to-end machine-learning pipeline for a liquid 200-stock universe,
-designed to avoid look-ahead leakage and evaluate predictions under
-transaction costs.
-
-- Compares Linear Regression, Ridge Regression, and XGBoost.
-- Uses time-ordered train / validation / test splits and strictly lagged
-  features.
-- Builds equal-weight long/short portfolios with one-way transaction
-  costs.
-- Demonstrates why lower prediction error does not automatically produce
-  better portfolio performance.
-
-`Python` `Pandas` `Scikit-learn` `XGBoost` `Quantitative Analytics`
-
-[**Explore SPSE Sentinel
-→**](https://github.com/Neerjhor09/Spse-sentinel)
-
-### 04. Smart Inventory Monitor — IoT + Deep Learning
-
-**Multisensory monitoring for enclosed storage**
-
-An embedded IoT and computer-vision system that identifies stored
-produce, monitors environmental conditions, and controls cooling.
-
-- Uses ESP32-CAM, DHT11, MQ-2, and relay-driven Peltier cooling.
-- Compares custom CNN, ResNet50, and MobileNetV2; the repository reports
-  98.3% train/validation accuracy.
-- Modular firmware, hysteresis-based cooling control, tests, and GitHub
-  Actions checks.
-- Documents a measured cooling rate of approximately 3.5 °C/min in the
-  original prototype analysis.
-
-`ESP32-CAM` `Arduino` `Python` `TensorFlow / Keras` `Computer Vision`
-`IoT`
-
-[**Explore Smart Inventory Monitor
-→**](https://github.com/Neerjhor09/Smart-Inventory-Monitor)
-
-------------------------------------------------------------------------
-
-## 03 / TECHNICAL TOOLKIT
-
-Tools I have used across projects, coursework, and experimentation.
-
-**Programming, data & development**
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode,jupyter,anaconda&theme=dark" alt="Python, MySQL, Git, GitHub, VS Code, Jupyter and Anaconda" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,r,mysql,anaconda,pytorch,tensorflow,arduino,raspberrypi,git,github,vscode&perline=6" alt="Technology skills">
 </p>
 
-**Machine learning & intelligent systems**
+**Programming & data:** Python · SQL · R · exploratory data analysis · data preparation
 
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,arduino,raspberrypi&theme=dark" alt="PyTorch, TensorFlow, scikit-learn, Arduino and Raspberry Pi" />
+**AI & machine learning:** Scikit-learn · XGBoost · CNNs · transfer learning · YOLO · deep learning
+
+**Analytics & applications:** Power BI · Streamlit · data visualization · business analytics
+
+**Computer vision:** image classification · object detection · industrial defect inspection
+
+**IoT & engineering:** Arduino · Raspberry Pi · GPS · sensor integration · industrial engineering
+
+**Development environment:** Git · GitHub · Google Colab · VS Code
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
+  <img src="https://img.shields.io/badge/XGBoost-Modeling-189E65?style=flat-square">
+  <img src="https://img.shields.io/badge/YOLO-Computer%20Vision-111827?style=flat-square">
+  <img src="https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=flat-square&logo=powerbi&logoColor=111827">
+  <img src="https://img.shields.io/badge/Streamlit-Apps-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
 </p>
 
-**Additional tools & methods**
+## SELECTED PROJECTS
 
-<p>
-<img src="https://img.shields.io/badge/Power%20BI-Analytics-91C77C?style=flat-square&logo=powerbi&logoColor=151A19" alt="Power BI" />
-<img src="https://img.shields.io/badge/Streamlit-Apps-91C77C?style=flat-square&logo=streamlit&logoColor=151A19" alt="Streamlit" />
-<img src="https://img.shields.io/badge/YOLO-Computer%20Vision-91C77C?style=flat-square&logoColor=151A19" alt="YOLO" />
-<img src="https://img.shields.io/badge/XGBoost-Gradient%20Boosting-91C77C?style=flat-square&logoColor=151A19" alt="XGBoost" />
-<img src="https://img.shields.io/badge/Google%20Colab-Notebooks-91C77C?style=flat-square&logo=googlecolab&logoColor=151A19" alt="Google Colab" />
+### 01 — Smart Inventory Reordering System
+**IoT monitoring · Demand forecasting · Predictive replenishment**
+
+An IoT-enabled inventory monitoring and replenishment concept designed to support more timely, data-informed stock decisions.
+
+- Integrated two ultrasonic sensors and a load cell.
+- Collected approximately **12,000 readings over six weeks**.
+- Applied **XGBoost** for forecasting.
+- Reported **14% MAPE** and a **32% reduction in stockouts** in the project evaluation.
+- Developed a **Streamlit** monitoring interface.
+
+**Stack:** Python · XGBoost · IoT sensors · Streamlit · Machine Learning
+
+<sub>Reported project results; performance should be interpreted in the context of the original dataset, evaluation design, and deployment conditions.</sub>
+
+### 02 — Textile & Denim Defect Detection
+**Computer vision · Industrial quality control**
+
+A computer-vision workflow exploring automated identification of fabric and denim defects.
+
+- Prepared image data for model experimentation.
+- Used a **60/30/10 train-validation-test split**.
+- Experimented with **YOLO-based defect detection** in Google Colab.
+- Focused on identifying visual defects in textile production.
+
+**Stack:** Python · YOLO · Computer Vision · Deep Learning · Google Colab
+
+### 03 — Offline GPS Anti-Theft Tracker
+**Embedded systems · GPS · Applied engineering research**
+
+An offline GPS-based tracking concept developed as an engineering project.
+
+- Explored GPS-based location tracking without relying on continuous internet connectivity.
+- Combined embedded-system development with a practical asset-protection use case.
+- Related publication: *Development of an Anti-Theft Offline GPS Tracker*.
+
+**Publication venue:** ITEGAM-JETIA
+
+### 04 — IoT-Based Environmental Monitoring
+**IoT · Sensor integration · Deep learning experiments**
+
+An undergraduate engineering project combining connected sensors and intelligent monitoring.
+
+- Integrated Raspberry Pi, Arduino, DHT11, MQ135, PIR sensor, and GPS components.
+- Explored CNN, ResNet50, and MobileNet for image-classification experiments.
+- Reported classification performance of up to **92%** in project experiments.
+
+**Stack:** Python · Raspberry Pi · Arduino · IoT · CNN · ResNet50 · MobileNet
+
+<sub>Reported experimental performance; not presented as an independently validated production result.</sub>
+
+## PUBLIC REPOSITORIES
+
+A few additional public repositories demonstrate my current interests in optimization, operations research, and applied analytics.
+
+| Repository | What it explores |
+|---|---|
+| [QLoom](https://github.com/Neerjhor09/QLoom) | Hybrid quantum-classical optimization for energy-aware textile manufacturing scheduling; explores QUBO/Ising formulation and QAOA benchmarking. |
+| [Threadline](https://github.com/Neerjhor09/Threadline) | Demand forecasting and mixed-integer linear programming for garment-manufacturing capacity and workforce planning. |
+| [SupplyShield](https://github.com/Neerjhor09/SupplyShield) | Procurement decision support balancing purchasing cost, supplier reliability, and disruption exposure using scenario analysis and risk-aware optimization. |
+
+## RESEARCH INTERESTS
+
+I am interested in research that connects computational methods with meaningful organizational and operational decisions.
+
+1. **Agentic AI for Business Analytics** — intelligent agents that can support multi-step analytical and operational workflows.
+2. **AI-Driven Decision Support Systems** — translating model outputs into transparent, actionable recommendations.
+3. **Industrial IoT & Intelligent Manufacturing** — connecting sensor data, machine intelligence, and production systems.
+4. **Predictive & Prescriptive Analytics** — moving from forecasting what may happen to evaluating what should be done.
+5. **AI-Enabled Supply Chain & Operations Management** — procurement, inventory planning, disruption resilience, and resource allocation.
+6. **Computer Vision for Industrial Quality Control** — reliable visual inspection and defect identification in manufacturing.
+7. **Human–AI Collaboration** — designing decision processes that combine machine recommendations with human judgment and oversight.
+
+**Research positioning**
+
+> Exploring the intersection of Agentic AI, Industrial IoT, and Business Analytics to develop intelligent decision-support systems for business and industrial applications.
+
+## EDUCATION
+
+**Sejong University** — South Korea  
+*M.S. in Big Data & AI Management*
+
+- First-semester CGPA: **4.17 / 4.50**
+- Expected graduation: **2028**
+
+**Bangladesh University of Textiles (BUTEX)** — Bangladesh  
+*Bachelor's in Textile Engineering, with an Industrial & Production Engineering background*
+
+
+## PROFESSIONAL EXPERIENCE
+
+**Research Assistant — REED Consultancy Bangladesh Ltd.**  
+*February 2023 – June 2023*
+
+- Contributed to research activities involving **30+ factories**.
+- Supported or participated in **120+ interviews**.
+- Collected and organized information on **200+ industrial machines**.
+- Supported data-related work for an ML-powered gamified training application.
+
+**Industrial Intern — Fakhruddin Textile Mills**
+
+- Industrial internship experience in a textile-manufacturing environment.
+- Further role details and specific responsibilities can be added after verification.
+
+## CERTIFICATIONS
+
+- **Google Data Analytics Professional Certificate** — Google
+- **IBM AI Developer Professional Certificate** — IBM
+- **Six Sigma Green Belt** — Kennesaw State University
+- **Digital Manufacturing & Design** — SUNY
+- **Chemical Management** — GIZ
+
+## GITHUB ACTIVITY
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Neerjhor09&show_icons=true&hide_border=true&theme=transparent&rank_icon=percentile" alt="GitHub profile statistics">
+  <img height="165" src="https://streak-stats.demolab.com?user=Neerjhor09&hide_border=true&theme=transparent" alt="GitHub contribution streak">
 </p>
 
-## 04 / EDUCATION
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Neerjhor09&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Most used programming languages">
+</p>
 
-**Sejong University · South Korea**  
-Master’s / MBA track in **Big Data & AI Management**  
-Current focus: AI, analytics, and data-driven management.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Neerjhor09&style=flat-square&color=2563EB&label=PROFILE+VIEWS" alt="Profile views">
+</p>
 
-**Bangladesh University of Textiles (BUTEX) · Bangladesh**  
-BSc in **Textile Engineering**  
-Academic foundation spanning textile systems and Industrial & Production
-Engineering.
+<sub>GitHub statistics and language cards are generated by external services. They may occasionally be unavailable, cached, or calculated using only public repository activity.</sub>
 
-## 05 / CERTIFICATIONS
+## LET'S CONNECT
 
-- Google Data Analytics Professional Certificate
-- IBM AI Developer Professional Certificate
-- Six Sigma Green Belt — Kennesaw State University
-- Digital Manufacturing & Design — SUNY
-- Chemical Management — GIZ
+I am open to connecting with researchers, students, and professionals working across **AI, business analytics, industrial engineering, manufacturing, and supply-chain operations**.
 
-## 06 / RESEARCH DIRECTIONS
+- **GitHub:** [github.com/Neerjhor09](https://github.com/Neerjhor09)
+- **LinkedIn:** [linkedin.com/in/mehbubulneerjhor](https://www.linkedin.com/in/mehbubulneerjhor/)
 
-I am interested in applied research that connects computational methods
-with operational and managerial questions.
+For research discussions, academic collaboration, or applied projects involving intelligent operations and decision-support systems, feel free to reach out through LinkedIn.
 
-| Direction                 | Questions I want to explore                                         |
-|---------------------------|---------------------------------------------------------------------|
-| Agentic AI                | How can AI agents support complex business workflows and decisions? |
-| Business Analytics        | How can predictive insights become better operational decisions?    |
-| Intelligent Manufacturing | How can forecasting and optimization improve production systems?    |
-| AI + IoT                  | How can connected devices enable more adaptive industrial systems?  |
-| Applied Optimization      | When do advanced optimization methods add practical value?          |
-
-**Currently exploring:** Agentic AI · Business Analytics · Decision
-Intelligence · Intelligent Manufacturing
-
-------------------------------------------------------------------------
+---
 
 <div align="center">
 
-### BUILD WITH PURPOSE. MEASURE WITH HONESTY.
+**Engineering perspective. Analytical thinking. Intelligent solutions.**
 
-*From physical systems to intelligent systems.*
-
-<br/>
-
-<a href="https://www.linkedin.com/in/mehbubulneerjhor/">
-<img src="https://img.shields.io/badge/Let's%20connect-LinkedIn-91C77C?style=flat-square&logo=linkedin&logoColor=151A19" alt="Connect on LinkedIn" />
-</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=151A19&height=55&section=footer" width="100%" alt="" />
+<sub>Building at the intersection of AI, business, and industry.</sub>
 
 </div>
