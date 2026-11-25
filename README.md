@@ -24,7 +24,7 @@
 
 ## About
 
-I am a master's student in **Big Data & AI Management at Sejong University, South Korea**, with an undergraduate background in **Textile Engineering and Industrial & Production Engineering** from Bangladesh University of Textiles (BUTEX).
+I am a master's student in **Big Data & AI at Sejong University, South Korea**, with an undergraduate background in **Textile Engineering and Industrial & Production Engineering** from Bangladesh University of Textiles (BUTEX).
 
 I work at the intersection of **AI, analytics, and industrial operations**. My interests lie in turning real-world business and manufacturing challenges into structured data problems—and developing analytical systems that help people make better decisions.
 
@@ -139,25 +139,12 @@ Git · GitHub · Google Colab · VS Code
 
 <sub>These are tools and methods I have worked with; experience and proficiency vary by technology.</sub>
 
-## Experience
 
-**Research Assistant** · REED Consultancy Bangladesh Ltd.  
-*February 2023 – June 2023*
-
-- Contributed to research activities involving **30+ factories**.
-- Supported or participated in **120+ interviews**.
-- Collected and organized information on **200+ industrial machines**.
-- Supported data-related work for an ML-powered gamified training application.
-
-**Industrial Intern** · Fakhruddin Textile Mills
-
-- Industrial internship experience in a textile-manufacturing environment.
-- Specific responsibilities and achievements can be added as they are verified.
 
 ## Education
 
 **Sejong University** · South Korea  
-*M.S. in Big Data & AI Management*  
+*M.S. in Big Data & AI *  
  
 Expected graduation: **2028**
 
